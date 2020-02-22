@@ -1,0 +1,2 @@
+include ':app', ':libyuv'
+rootProject.name='RayseesLibyuv'
