@@ -30,3 +30,5 @@
 #include "libyuv/video_common.h"
 
 #endif  // INCLUDE_LIBYUV_H_
+
+void i420ToARGB(jbyte *src_i420_data, jint width, jint height, jbyte *dst_argb_data);

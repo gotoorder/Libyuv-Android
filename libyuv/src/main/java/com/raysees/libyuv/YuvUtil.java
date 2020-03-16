@@ -28,6 +28,7 @@ public class YuvUtil {
      */
     public static native void yuvCompress(byte[] nv21Src, int width, int height, byte[] i420Dst, int dst_width, int dst_height, int mode, int degree, boolean isMirror);
 
+    public static native void yuvI420ToARGB(byte[] i420Src, int width, int height, byte[] argbDst);
     /**
      * yuv数据的裁剪操作
      *
