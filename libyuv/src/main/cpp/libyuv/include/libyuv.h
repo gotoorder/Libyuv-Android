@@ -32,3 +32,12 @@
 #endif  // INCLUDE_LIBYUV_H_
 
 void i420ToARGB(jbyte *src_i420_data, jint width, jint height, jbyte *dst_argb_data);
+
+//void convertToArgb(jbyteArray src_frame, int src_size,
+//                   jbyteArray dst_argb, int dst_stride_argb,
+//                   int crop_x, int crop_y,
+//                   int src_width, int src_height,
+//                   int crop_width, int crop_height);
+
+int convertI420ToARGB(const uint8_t *src_frame, uint8_t *dst_frame, int width, int height,
+                      int dst_stride);
